@@ -1,0 +1,232 @@
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.55);
+  padding-right: 53px;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  background-color: #3f444e !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}.tooltip-main {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-weight: 700;
+  background: #ca0c0c !important;
+  border: 1px solid #ca0c0c;
+  color: #737373;
+  float: right;
+  text-align: left !important;
+}
+
+.tooltip-qm {
+  float: left;
+  font-size: 12px;
+}
+
+.tooltip-inner {
+  max-width: 236px !important;
+  background: #ca0c0c !important;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, .7);
+  border: 1px solid #ca0c0c;
+  text-align: left;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f00;
+  /* Red */
+}
+.nav-link{
+  font-size: 23px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  text-align: center;
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  .navbar-nav{
+    display: inline;
+  }
+  #footer{
+    display: none !important;
+  }
+}
+
+.grid_2 img{
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+}
+.caption1{
+	position:relative;
+}
+ul.list_5{
+	position: absolute;
+	top:-180px;
+	left: 10px;
+	width:100%;
+	margin:0;
+	padding:0;
+  color: rgb(212, 91, 91);
+	list-style:none;
+}
+.grid_2:hover, .row_2:hover, .m_5:hover, .m_6:hover, .m_7:hover, .m_8:hover{
+	
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	opacity:0.8;
+}
+p.m_3 {
+  position: absolute;
+  top: -30px;
+  color: #fff;
+  font-size: 1.1em;
+  width: 100%;
+  text-align: center;
+}
+/*--footer--*/
+
+#footer {
+float: left;
+overflow: hidden;
+width: 100%;
+margin-bottom:5em;
+}
+#footer-3d {
+background-color:#edeff0;
+}
+#footer-3d {
+float: left;
+overflow: hidden;
+width: 100%;
+height: 60px;
+}
+
+#footer-3d .first-widget-bend {
+float: left;
+overflow: hidden;
+width: 30%;
+height: 60px;
+margin-left: 30px;
+-webkit-transform: skewX(-45deg);
+-moz-transform: skewX(-45deg);
+transform: skewX(-45deg);
+}
+.first-widget-bend {
+background-color:#d8232a;
+}
+#footer-widgets.gp-footer-larger-first-col {
+padding: 0;
+}
+#footer-widgets {
+background-color:#262C38;
+}
+#footer-widgets {
+float: left;
+overflow: hidden;
+padding: 50px 0 10px;
+width: 100%;
+}
+.gp-container {
+position: relative;
+margin: 0 auto;
+z-index: 1;
+}
+.gp-footer-larger-first-col .footer-1 {
+
+line-height: 23px;
+font-weight: 400;
+font-style: normal;
+color: #ffffff;
+font-size: 15px;
+opacity: 1;
+visibility: visible;
+-webkit-transition: opacity 0.24s ease-in-out;
+-moz-transition: opacity 0.24s ease-in-out;
+transition: opacity 0.24s ease-in-out;
+}
+.gp-footer-larger-first-col .footer-1 {
+background-color:#d8232a;
+}
+.gp-footer-larger-first-col .footer-1 {
+width: 30%;
+margin-right:7%;
+padding: 30px;
+float: left;
+}
+.col_1_of_3:first-child {
+margin-left: 0;
+}
+.span_1_of_3 {
+width:19.8%;
+}
+.col_1_of_3{
+display: block;
+float: left;
+margin:4% 0 1% 1.6%;
+}
+.span_1_of_3 h3 {
+margin-bottom:15px;
+
+
+font-size:1.5em;
+line-height: 1.2;
+margin-top: 0px;
+letter-spacing: -1px;
+color: #fff;
+}
+ul.first{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+ul.first li a {
+color: #A0A0A0;
+font-size: 15px;
+-moz-transition: background 0.5s ease;
+-o-transition: background 0.5s ease;
+-webkit-transition: background 0.5s ease;
+line-height: 1.8em;
+}
+ul.first li a:hover{
+  text-decoration:none;
+  color:#d8232a;
+}
+.footer_box{
+  
+}
+.copy p{
+  color:#fff;
+  font-size:13px;
+  margin-top:1em;
+}
+.copy p a{
+  color:#d8232a;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(216 35 42);
+}
+.nav-link:hover {
+  color: rgb(216 35 42) !important;
+}
